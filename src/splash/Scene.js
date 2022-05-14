@@ -29,12 +29,12 @@ require("three/examples/js/shaders/ConvolutionShader");
 require("three/examples/js/shaders/LuminosityHighPassShader");
 require("three/examples/js/shaders/CopyShader");
 
-//song_exploder_intro.[mp3|ogg]', buffer =>
+//song_exploder_intro.[ogg|mp3]', buffer =>
 //returns a Promise which resolves with an array
 const getBuffer = () =>
 	new Promise((resolve) => {
-		// AudioBuffer.load('./audio/perfume_genius/MBIRA-0.[mp3|ogg]', buffer =>
-		AudioBuffer.load("./audio/vo/intro.[mp3|ogg]", (buffer) =>
+		// AudioBuffer.load('./audio/perfume_genius/MBIRA-0.[ogg|mp3]', buffer =>
+		AudioBuffer.load("./audio/vo/intro.[ogg|mp3]", (buffer) =>
 			resolve(buffer.getChannelData(0))
 		);
 	});

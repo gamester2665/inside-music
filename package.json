@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@ekolabs/aframe-spritesheet-component": "^1.2.0",
-    "aframe": "https://github.com/aframevr/aframe.git#fbf2bfb6fab727fb0f9a480292ea8ea0d808d5c6",
+    "aframe": "0.6.1",
     "aframe-auto-detect-controllers-component": "^0.1.4",
     "aframe-controller-cursor-component": "^0.2.7",
     "aframe-gif-shader": "^0.2.0",
@@ -46,7 +46,7 @@
     "startaudiocontext": "^1.2.0",
     "three": "^0.84.0",
     "tinycolor2": "^1.4.1",
-    "tone": "https://github.com/Tonejs/Tone.js.git#bf52df2fdc2ea8c99b73985413b001308ef2835f",
+    "tone": "0.12.80",
     "tween.js": "^16.6.0",
     "visibilityjs": "^1.2.4",
     "webvr-ui": "^0.10.0"
